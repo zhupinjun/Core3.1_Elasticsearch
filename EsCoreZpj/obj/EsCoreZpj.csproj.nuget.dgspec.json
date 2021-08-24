@@ -1,0 +1,80 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\zpj\\ElasticKibanaNetCore\\escore-zpj\\EsCoreZpj\\EsCoreZpj\\EsCoreZpj.csproj": {}
+  },
+  "projects": {
+    "D:\\zpj\\ElasticKibanaNetCore\\escore-zpj\\EsCoreZpj\\EsCoreZpj\\EsCoreZpj.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\zpj\\ElasticKibanaNetCore\\escore-zpj\\EsCoreZpj\\EsCoreZpj\\EsCoreZpj.csproj",
+        "projectName": "EsCoreZpj",
+        "projectPath": "D:\\zpj\\ElasticKibanaNetCore\\escore-zpj\\EsCoreZpj\\EsCoreZpj\\EsCoreZpj.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "D:\\zpj\\ElasticKibanaNetCore\\escore-zpj\\EsCoreZpj\\EsCoreZpj\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\RDM\\NetCore_PDMCODE\\GDDLL": {},
+          "http://192.168.103.113:6680/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.cnblogs.com/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Elasticsearch.Net": {
+              "target": "Package",
+              "version": "[7.14.0, )"
+            },
+            "NEST": {
+              "target": "Package",
+              "version": "[7.14.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.1.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
